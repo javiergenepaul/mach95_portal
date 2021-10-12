@@ -22,8 +22,8 @@ class AddUserRolesId extends Migration
             $table->string('avatar')->nullable();
             $table->boolean('status')->default(false);
             $table->string('company')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('password'); 
+            $table->rememberToken();    
             $table->timestamps();
         });
     }
